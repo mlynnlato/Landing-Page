@@ -55,9 +55,13 @@ body {
     max-width: 65%;
     margin-left: auto;
     margin-right: auto;
-    gap:9%;
     display: flex;
     align-items: center;
+}
+
+.about .image{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .about .details{
@@ -100,7 +104,7 @@ body {
 
 .about .display {
     display: flex;
-    margin-top: 80px;
+    margin-top: 60px;
     justify-content: space-between;
 }
 /* Random info*/
