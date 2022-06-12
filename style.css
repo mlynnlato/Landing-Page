@@ -1,3 +1,11 @@
-body{
+body {
     background-color: gray;
+}
+
+.info .img {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 100px;
+    height: 75px;
 }
