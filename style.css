@@ -3,12 +3,19 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 75%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,7 +25,7 @@ body {
 }
 
 .nav {
-    max-width: 75%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -43,27 +50,28 @@ body {
 .about{
 
     background-color: #1F2937;
-    max-height: 400px;
 }
 .about .display{
-    max-width: 75%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
     gap:9%;
+    display: flex;
+    align-items: center;
 }
 
 .about .details{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: start;
+    align-content: center;
     gap:10px;
 }
 
 .about img{
-    width:100%;
-    max-width: 700px;
-    height:auto;
+
+    width:55%;
 }
 .about button {
     background-color: #3882F6;
@@ -103,18 +111,21 @@ body {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.info .header{
+    display: flex;
+    justify-content: center;
 }
 
 .info .content{
-    max-width: 75%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    gap:30px;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
+    align-content: flex-end;
+    gap:100px;
 }
 .info .header{
     color:#1F2937;
@@ -142,6 +153,8 @@ body {
 
 .quote{
     background-color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .quote .content{
     justify-content: center;
@@ -149,7 +162,7 @@ body {
     color:#1F2937;
     display: flex;
     flex-direction: column;
-    max-width: 75%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
