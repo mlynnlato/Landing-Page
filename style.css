@@ -9,3 +9,17 @@ body {
     width: 100px;
     height: 75px;
 }
+
+button {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+
+}
