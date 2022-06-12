@@ -74,8 +74,8 @@ body {
 }
 
 .about img{
-
-    width:55%;
+    width: auto;
+    max-width: 483px;
 }
 .about button {
     background-color: #3882F6;
