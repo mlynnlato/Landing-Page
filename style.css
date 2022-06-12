@@ -1,6 +1,69 @@
 body {
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+    color: white;
 }
+
+/*Top */
+.top{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.top-split{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:900px
+}
+
+.top .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .left{
+
+}
+.top .image{
+    display: flex;
+    flex-basis: 50%;
+
+}
+
+.top .display{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.display .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 50%;
+}
+
+.top .right{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+
+/*Information */
+
+/*Quote */
+
+/*Alert Sign up */
+
+/*Footer */
+
 
 .info .img {
     border-radius: 25px;
@@ -21,5 +84,6 @@ button {
     width: 100px;
     height: 30px;
     font-weight: bolder;
-
 }
+
+
