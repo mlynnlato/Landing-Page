@@ -57,7 +57,7 @@ body {
     margin-right: auto;
     display: flex;
     align-items: center;
-    gap:250px;
+    gap:150px;
 }
 
 .about .image{
