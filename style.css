@@ -32,6 +32,7 @@ body {
 
 /*about/hero */
 .about{
+    background-color: #1F2937;
     max-height: 400px;
 }
 .about .display{
@@ -81,14 +82,37 @@ body {
     margin-top: 80px;
     justify-content: space-between;
 }
-
+/* Random info*/
 .info{
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .info .content{
+    margin-top: 20px;
+    gap:30px;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.info .content img{
+    width:100%;
+    max-width: 200px;
+    height:auto;
+    border: 2px solid #3882F6;
+    border-radius: 12%;
+}
+
+.one , .two, .three, .four{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+    max-width: 200px;
+    height:auto;
 }
