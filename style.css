@@ -1,89 +1,31 @@
 body {
-    background-color: gray;
-    display: flex;
-    flex-direction: column;
-    font-family: roboto, sans-serif;
-    color: white;
-}
-
-/*Top */
-.top{
     background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    height: 200px;
-}
-
-.top-split{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width:900px
-}
-
-.top .header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.top .left{
-
-}
-.top .image{
-    display: flex;
-    flex-basis: 50%;
-
-}
-
-.top .display{
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-.display .text{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex-basis: 50%;
-}
-
-.top .right{
-    display: flex;
-    gap: 10px;
     color: white;
 }
 
-
-/*Information */
-
-/*Quote */
-
-/*Alert Sign up */
-
-/*Footer */
-
-
-.info .img {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px;
-    width: 100px;
-    height: 75px;
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
-button {
-    background-color: dodgerblue;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 12px;
-    width: 100px;
-    height: 30px;
-    font-weight: bolder;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
+.nav .left{
+font-weight: 900;
+font-size: 24px;
+}
 
+.nav .right{
+    color:#E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap:20px;
+}
+
+/*about/hero */
